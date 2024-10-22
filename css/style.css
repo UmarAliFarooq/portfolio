@@ -1417,7 +1417,13 @@ body.offcanvas {
   padding-bottom: 1em; }
   @media screen and (max-width: 768px) {
     .row-bottom-padded-sm {
-      padding-bottom: 1em; } }
+      padding-bottom: 1em; }
+      
+      .hideable_bg{
+        background-image: none !important;
+      }
+      
+       }
 
 .row-pt-md {
   padding-top: 3em; }
